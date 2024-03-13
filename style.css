@@ -1,0 +1,123 @@
+*::before::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0e0a4;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* transition: all 0.5; */
+}
+
+.number {
+    font-family: 'Courier New';
+    font-weight: 600;
+    margin: 0 3rem;
+    font-size: 3rem;
+    color: rgb(44, 46, 44);
+
+}
+
+.btn {
+    /* background-color: blue; */
+    padding: 1rem;
+    border-radius: 10px 20px;
+    margin: 2rem;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px rgb(106, 227, 0);
+    font-family: 'Lucida Sans';
+    /* transition: calc(180drg); */
+
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 2px 2px rgb(3, 47, 59);
+    cursor: pointer;
+
+}
+
+.btn_jaune {
+    background-color: rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+.btn_blue {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.btn_rouge {
+    background-color: red;
+}
+
+.numbers-container {
+    display: flex;
+}
+
+.resulte {
+    font-size: 4rem;
+    margin-top: 3rem;
+    font-weight: 800;
+    font-family: cursive;
+    /* transition: all linear 1s; */
+}
+
+.resulte:hover {
+
+    text-shadow: 1px 1px orange;
+    color: rgb(62, 18, 18);
+}
+
+.title {
+    color: rgb(40, 9, 69);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+
+    text-align: center;
+}
+
+.inst {
+    color: rgb(234, 112, 112);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.numbers-container {
+    padding: 1rem;
+    border-radius: 10px 20px;
+    margin: 2rem;
+    border: 1px solid rgb(192, 2, 135);
+    box-shadow: 2px 2px 2px 2px rgb(192, 2, 135);
+    font-family: 'Lucida Sans';
+    /* transition: calc(1800drg); */
+}
+
+.number {
+    padding: 1rem;
+    border-radius: 50px;
+    border: 3px solid rgb(0, 0, 0);
+
+}
+
+.btns {
+    display: flex;
+}
+
+.refesh {
+    display: none;
+    padding: 1rem;
+    border-radius: 20px 20px;
+    border: 3px solid rgb(139, 50, 50);
+    font-size: 2rem;
+    cursor: grab;
+}
