@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f0e0a4;
+    background-color: #f4db81;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 .number {
     font-family: 'Courier New';
     font-weight: 600;
-    margin: 0 3rem;
+    /* margin: 0 3rem; */
     font-size: 3rem;
     color: rgb(44, 46, 44);
 
@@ -60,9 +60,11 @@ body {
     background-color: red;
 }
 
-.numbers-container {
+/* .numbers-container {
     display: flex;
-}
+    align-items: center;
+    justify-content: space-between;
+} */
 
 .resulte {
     font-size: 4rem;
@@ -79,34 +81,59 @@ body {
 }
 
 .title {
-    color: rgb(40, 9, 69);
+    color: rgb(79, 2, 151);
     font-size: 4rem;
     margin-bottom: 2rem;
-
     text-align: center;
+    font-weight: 600;
 }
 
 .inst {
-    color: rgb(234, 112, 112);
-    font-size: 3rem;
+    color: rgb(51, 24, 88);
+    font-size: 2rem;
     margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.title-inst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .numbers-container {
+    display: flex;
+    /* justify-content: center; */
+    width: 90vw;
     padding: 1rem;
-    border-radius: 10px 20px;
-    margin: 2rem;
-    border: 1px solid rgb(192, 2, 135);
-    box-shadow: 2px 2px 2px 2px rgb(192, 2, 135);
+    border-radius: 20px;
+    margin: 1rem;
+    border: 1px solid rgb(14, 17, 162);
+    box-shadow: 2px 2px 2px 2px rgb(18, 9, 147);
     font-family: 'Lucida Sans';
     /* transition: calc(1800drg); */
 }
 
 .number {
+    /* text-align: center;
+    width: 40px;
+    height: 30px;
     padding: 1rem;
-    border-radius: 50px;
-    border: 3px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    border: 3px solid rgb(0, 0, 0); */
 
+    font-weight: 600;
+    margin: 0 2rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    padding: 1rem;
+    border: #233142 solid 4px;
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btns {
